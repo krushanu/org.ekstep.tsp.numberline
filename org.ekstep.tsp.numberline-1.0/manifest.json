@@ -1,0 +1,35 @@
+{
+    "id": "org.ekstep.tsp.numberline",
+    "ver": "1.0",
+    "author": "@thesecretproject",
+    "type": "widget",
+    "title": "Robotic Numberline Plugin",
+    "description": "",
+    "publishedDate": "",
+    "editor": {
+        "main": "editor/plugin.js",
+        "dependencies": [
+            {
+                "type": "plugin",
+                "plugin": "org.ekstep.colorpicker",
+                "ver": "1.0"
+            }
+        ],
+        "menu": [],
+        "help": {
+            "src": "editor/help.md",
+            "dataType": "text"
+        },
+        "init-data": {
+            "x": 10,
+            "y": 10,
+            "w": 10,
+            "h": 10,
+            "fill": "rgba(255,0,0,0.5)",
+            "stroke": "rgba(255,255,255,1)"
+        }
+    },
+    "renderer": {
+        "main": "renderer/plugin.js"
+    }
+}
